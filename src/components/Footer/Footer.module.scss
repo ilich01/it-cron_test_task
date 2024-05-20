@@ -1,0 +1,88 @@
+.container {
+  padding: 100px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+.message {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  font-family: GothamPro-Bold;
+}
+.line {
+  width: 2px;
+  height: 60px;
+  opacity: 0.5;
+  background-color: #fff;
+  margin-top: 60px;
+}
+.buttom {
+  width: 250px;
+  height: 250px;
+  width: 300px;
+  height: 300px;
+  background-color: #fb6542;
+  border-radius: 50%;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  .text {
+    color: #fff;
+    font-size: 36px;
+    font-family: GothamPro-Bold;
+    text-align: center;
+  }
+}
+.fullAdderss {
+  display: block;
+  margin-top: 60px;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  //   gap: 2px;
+}
+.firstAddress {
+  font-family: GothamPro-Bold;
+  font-size: 26px;
+  color: #fff;
+  margin-top: 0px;
+}
+.secondAddress {
+  font-size: 26px;
+  color: #fff;
+  margin-top: 0px;
+}
+.email {
+  font-size: 80px;
+  font-family: 'GothamPro';
+  color: #fff;
+  margin-top: 60px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+.phone {
+  color: #fb6542;
+  font-size: 26px;
+  margin-top: 0px;
+}
+.telegram {
+  background-color: none;
+  border: none;
+  display: inline-block;
+  margin-left: 16px;
+  margin-top: 0px;
+}
+.contact {
+  color: #fff;
+  text-align: right;
+  font-size: 26px;
+}

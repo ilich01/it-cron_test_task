@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px;
+}
+
+.column {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}

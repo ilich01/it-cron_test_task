@@ -1,0 +1,33 @@
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
+  z-index: 3;
+  position: fixed;
+  height: 120px;
+  width: 90%;
+  background-color: rgba(19, 18, 18, 0.8);
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+}
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav {
+  font-size: 22px;
+  margin-right: 350px;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.button {
+  color: #fff;
+}
+.logo,
+.menu,
+.button {
+  cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.text {
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.selected {
+  color: #fb6542;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterCategory {
+  text-align: left;
+}
+
+.line {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  margin: 10px 0;
+}
+
+.categoryName {
+  color: #fff;
+  font-size: 34px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Добавлено */
+}
+
+.filter {
+  margin-right: 70px;
+  display: grid;
+  align-content: first baseline;
+}
